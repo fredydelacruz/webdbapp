@@ -1,0 +1,9 @@
+services:
+  web:
+    image: node:18-alpine
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/webapp
+    working_dir: /webapp
+    command: npm run dev
