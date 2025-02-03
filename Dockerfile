@@ -6,4 +6,4 @@ COPY . .
 
 RUN npm install --frozen-lock
 
-CMD ["npm","run","dev"]
+CMD ["npm", "run", "dev"]
